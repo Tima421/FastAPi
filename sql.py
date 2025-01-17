@@ -57,7 +57,7 @@ os.environ["OPENAI_API_KEY"] = "sk-proj-tSQLAbGLq8P9xjY9Bf0oDJCxMv9JFepsp-1a92_R
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 llm = OpenAI(temperature=0.1, model="gpt-3.5-turbo")
-sql_database = SQLDatabase(engine, include_tables=["DATA_INFO"])    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
+sql_database = SQLDatabase(engine, include_tables=["DATA_INFO"])   
     
 from llama_index.core.indices.struct_store.sql_query import (
     SQLTableRetrieverQueryEngine,
