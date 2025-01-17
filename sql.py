@@ -53,7 +53,7 @@ import pandas as pd
 from llama_index.core import SQLDatabase
 from llama_index.llms.openai import OpenAI
 
-os.environ["OPENAI_API_KEY"] = ""
+os.environ["OPENAI_API_KEY"] = "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"
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 llm = OpenAI(temperature=0.1, model="gpt-3.5-turbo")
